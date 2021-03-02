@@ -109,7 +109,7 @@ namespace Jellyfin.Plugin.Fanart.Providers
                 }
             }
 
-            var language = item.GetPreferredMetadataLanguage();
+            var language = "en";
 
             var isLanguageEn = string.Equals(language, "en", StringComparison.OrdinalIgnoreCase);
 
